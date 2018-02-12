@@ -48,9 +48,9 @@ $ sudo service apache2 restart
 8. Buat database untuk oxwall 
 ```
 $ mysql –u root –p –e "
-		CREATE DATABASE oxwall;
-		GRANT ALL PRIVILEGES ON `oxwall`.* TO 'oxwall'@'localhost' IDENTIFIED BY 'student';
-		FLUSH PRIVILEGES;"
+    CREATE DATABASE oxwall;
+    GRANT ALL PRIVILEGES ON `oxwall`.* TO 'oxwall'@'localhost' IDENTIFIED BY 'student';
+    FLUSH PRIVILEGES;"
 ```
 
 9. Install terlebih dahulu zip untuk mengekstrak data oxwall
