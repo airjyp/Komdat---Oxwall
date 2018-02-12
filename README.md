@@ -100,7 +100,7 @@ $ sudo systemctl restart apache2
 19. Ketika sudah masuk halaman oxwall, akan muncul peringatan mysql php extension belum terinstall, karena oxwall tidak bisa membaca php-mysql dari php 7, triknya yaitu menghapus requirement mysql pada oxwall
 20. ini apaaaa
 ```
-$sudo nano /var/www/html/oxwall/ow_install/files/requirement.txt
+$sudo nano /var/www/html/oxwall/ow_install/files/requirements.txt
 ```
 
 21. Hapus mysql pada file tersebut, save dengan ctrl+o
