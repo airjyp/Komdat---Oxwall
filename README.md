@@ -127,6 +127,7 @@ $sudo nano /var/www/html/oxwall/ow_install/files/requirements.txt
 # Referensi
 [`^ kembali ke atas ^`](#)
 
+1. [About Oxwall](https://www.oxwall.com/about) - Oxwall
 
 
 
