@@ -64,7 +64,7 @@ $ sudo mv oxwall /var/www/html
 
 9. Mengubah ownership direktori oxwall ke webserver 
 ```
-$ sudo chown –R www-data:www-data /var/www/oxwall
+$ sudo chown –R www-data:www-data /var/www/html/oxwall
 ```
 
 10. Buat database dan user untuk **Oxwall** 
