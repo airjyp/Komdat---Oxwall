@@ -110,23 +110,23 @@ $sudo nano /var/www/html/oxwall/ow_install/files/requirements.txt
 
 [`^ kembali ke atas ^`](#)
 
-- Untuk menentukan konfigurasi umum, batasan upload file, batas memori yang diperlukan, dan ekstensi/format file yang dapat diupload , dapat dilakukan dengan membuka submenu Content settings yang terdapat pada menu Settings dan mengisi field sesuai kebutuhan.
+- Untuk menentukan konfigurasi umum, batasan upload file, batas memori yang diperlukan, dan ekstensi/format file yang dapat diupload , dapat dilakukan dengan membuka submenu **Content settings** yang terdapat pada menu **Settings** dan mengisi field sesuai kebutuhan.
      
      ![content_setting](https://github.com/airjyp/Komdat---Oxwall/blob/master/konfigurasi/content_setting.png)
 
-- Kita dapat membatasi batas upload size untuk avatar pada user di submenu User setting 
+- Kita dapat membatasi batas upload size untuk avatar pada user di submenu **User settings**. 
      
      ![content_setting](https://github.com/airjyp/Komdat---Oxwall/blob/master/konfigurasi/user_setting.png)
 
-- Untuk melengkapi dan melakukan improve pada aplikasi, kita dapat menambahkan fitur tertentu pada menu Available Plugins.
+- Untuk melengkapi dan melakukan improve pada aplikasi, kita dapat menambahkan fitur tertentu di submenu **Available Plugins** pada menu **Plugins**.
      
      ![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(14).png)
 
-- Untuk mengupload dan menambahkan plugin secara manual, dapat dilakukan pada menu Add New.
+- Untuk mengupload dan menambahkan plugin secara manual, dapat dilakukan pada menu **Add New**.
      
      ![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(15).png)
 
-- Kita dapat mempercantik tampilan aplikasi dengan menambahkan atau mengganti tema aplikasi pada submenu Themes di Appearance.
+- Kita dapat mempercantik tampilan aplikasi dengan menambahkan atau mengganti tema aplikasi pada submenu **Themes** di **Appearance**.
      
      ![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(18).png)
 
@@ -138,7 +138,7 @@ $sudo nano /var/www/html/oxwall/ow_install/files/requirements.txt
 Maintenance dibutuhkan untuk melakukan improvisasi dan kualitas pada aplikasi. Salah satu dari aktivitas maintenance adalah melakukan modifikasi, memperbaiki fitur yang ada, maupun meningkatkan performa aplikasi kita. Oleh karena itu, kita perlu mengaktifkan fitur Maintenance mode saat akan melakukan maintenance, agar tidak ada client yang mengakses aplikasi selama proses maintenance berjalan. Berikut ini adalah langkah-langkah yang harus dilakukan :
 
 1. Login ke dalam admin aplikasi kita.
-2. Klik submenu special pages pada menu Pages.
+2. Klik submenu **Special pages** pada menu **Pages**.
 
      ![pages](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/pages.png)
 
@@ -146,8 +146,8 @@ Maintenance dibutuhkan untuk melakukan improvisasi dan kualitas pada aplikasi. S
 
      ![maintenance](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/maintenance.png)
 
-4. Untuk menyampaikan pesan yang ingin disampaikan kepada orang yang akan mengakses aplikasi web saat mode maintenance, kita dapat menambahkan pesan di Maintenance message.
-5. Klik tombol save untuk menyimpan perubahan.
+4. Untuk menyampaikan pesan yang ingin disampaikan kepada orang yang akan mengakses aplikasi web saat mode maintenance, kita dapat menambahkan pesan pada field **Maintenance message**.
+5. Klik tombol **Save** untuk menyimpan perubahan.
 
 
 
