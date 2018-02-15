@@ -153,6 +153,18 @@ Maintenance dibutuhkan untuk melakukan improvisasi dan kualitas pada aplikasi. S
 
 # Otomatisasi
 [`^ kembali ke atas ^`](#)
+Salah satu cara yang bisa digunakan untuk menginstall oxwall dengan cepat yaitu dengan menggunakan layanan web-hosting provider, salah satunya yaitu **Installatron**,berikut cara menginstall oxwall menggunakan installatron:
+
+1. Mengunjungi **Installatron**
+2. Search oxwall pada installatron, seperti gambar berikut ini
+
+    ![Installatron](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/otomatisasi%20review.png)
+
+3. klik tombol **Install this application** lalu mengisi informasi yang tersedia pada form
+
+    ![form](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/otomatisasi%20install.png)
+
+4. Tunggu hingga proses instalasi selesai.
 
 
 # Cara Pemakaian
