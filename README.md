@@ -167,6 +167,14 @@ Terdapat beberapa konfigurasi dalam aplikasi web Oxwall ini, diantaranya:
 
 ## konfigurasi plugin
 
+- Untuk menonaktifkan atau menghapus plugin yang terinstall di aplikasi, dapat dilakukan pada menu Installed plugins
+![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(13).png)
+
+- Untuk melengkapi aplikasi, kita dapat menambahkan fitur tertentu pada menu Available Plugins.
+![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(14).png)
+
+- Untuk mengupload dan menambahkan plugin secara manual, dapat dilakukan pada menu Add New.
+![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(15).png)
 
 # Maintenance
 
