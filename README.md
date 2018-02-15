@@ -174,10 +174,23 @@ Salah satu cara yang bisa digunakan untuk menginstall oxwall dengan cepat yaitu 
 # Pembahasan
 [`^ kembali ke atas ^`](#)
 
-- Pendapat anda tentang aplikasi web ini
-    - kelebihan
-    - kekurangan
-- Bandingkan dengan aplikasi web lain yang sejenis
+**Oxwall** ditulis dalam bahasa pemrograman PHP yang support untuk penggunaan MySQL. **Oxwall** merupakan salah satu aplikasi web jejaring sosial media yang cukup simple dan mudah digunakan dengan kelebihan diantaranya : 
+- Tampilan cukup simple dan *light* saat digunakan.
+- Tidak menggunakan memori terlalu besar.
+- Design aplikasi yang responsif, sehingga dapat digunakan pada berbagai platforms.
+- Fitur **Search** yang cukup detail, dapat mencari berdasarkan kriteria tertentu.
+- Dapat dikustomisasi baik untuk situs keluarga, forum, maupun jaringan sosial secara enterprise.
+
+Namun, setiap aplikasi pasti memiliki kekurangan dari segi tertentu, Kekurangan dari **Oxwall** ini adalah :
+- Dari segi developer, aplikasi ini tidak up-to-date. Terakhir aplikasi ini di*update* adalah 2016.
+- Tidak ada pengaturan yang baik pada pengelolaan privasi pengguna. Siapapun dapat melihat aktivitas maupun profil siapa saja.
+- Dalam segi UX, pada saat melakukan sesi register terlalu banyak melakukan input data yang tidak dibutuhkan.
+- 
+-
+
+
+Apabila kira membandingkan **Oxwall** dengan CMS sejenisnya seperti Facebook, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara Oxwall dengan Facebook ini :
+
 
 # Referensi
 [`^ kembali ke atas ^`](#)
