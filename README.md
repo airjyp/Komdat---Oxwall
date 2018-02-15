@@ -17,35 +17,57 @@
 - Ubuntu bash di windows
 
 #### Proses Instalasi :
-1. Lakukan instalasi Ubuntu server di Virtualbox (Ubuntu-server.vdi), kemudian setting port forwarding http dengan port 8888 dan ssh dengan port 2222.
-2. Nyalakan Ubuntu servernya, login dengan menggunakan user dan password student
-3. Lakukan update server
+1. Lakukan update server
 ```
 $ sudo apt update
 ```
 
-4. Install ssh pada Ubuntu server
+2. Install ssh pada Ubuntu server
 ```
 $ sudo apt install ssh
 ```
 
-5. Buka Ubuntu bash, kemudian login ke dalam server menggunakan SSH
+3. Login ke dalam server menggunakan SSH menggunakan ubuntu bash (Windows)
 ```
 $ ssh student@localhost –p 2222
 ```
 
-6. Install seluruh kebutuhan sistem yang diperlukan seperti`Apache`, `PHP`, dan `MySQL`. 
+4. Install seluruh kebutuhan sistem yang diperlukan seperti`Apache`, `PHP`, dan `MySQL`. 
 ```
 $ sudo apt install apache2 
 $ sudo apt install mysql-server
 $ sudo apt install php
 $ sudo apt install libapache2-mod-php 
-$ sudo apt install php-mysql php-zip php-gd php-json php-readline php–mcrypt  php-mbstring php-xml php-ssh2
+$ sudo apt install php-mysql php-zip php-gd php-json php-readline php–mcrypt php-mbstring php-xml php-ssh2
 $ sudo service apache2 restart
 ```
 
-7. Cek instalasi apache di http://localhost:8888/
-8. Buat database untuk oxwall 
+5. Install terlebih dahulu zip untuk mengekstrak data Oxwall.
+```
+$ sudo apt install zip && sudo apt install unzip
+```
+
+6. Unduh **Oxwall** ke dalam direktori.
+```
+$ wget –c http://ow.download.s3.amazonaws.com/oxwall-1.8.4.1.zip
+```
+
+7. Ekstrak file yang telah diunduh ke dalam direktori yang diinginkan. 
+```
+$ unzip 0xwall-1.8.4.1.zip –d oxwall
+```
+
+8. Pindahkan folder oxwall
+```
+$ sudo mv oxwall /var/www/html
+```
+
+9. Mengubah ownership direktori oxwall ke webserver 
+```
+$ sudo chown –R www-data:www-data /var/www/oxwall
+```
+
+10. Buat database dan user untuk **Oxwall** 
 ```
 $ mysql –u root –p –e "
     CREATE DATABASE oxwall;
@@ -53,57 +75,31 @@ $ mysql –u root –p –e "
     FLUSH PRIVILEGES;"
 ```
 
-9. Install terlebih dahulu zip untuk mengekstrak data oxwall
-```
-$ sudo apt install zip && sudo apt install unzip
-```
-
-10. Unduh oxwall
-```
-$ wget –c http://ow.download.s3.amazonaws.com/oxwall-1.8.4.1.zip
-```
-
-11. Setelah mengunduh oxwall, unzip oxwall tersebut 
-```
-$ unzip 0xwall-1.8.4.1.zip –d oxwall
-```
-
-12. Pindahkan folder oxwall
-```
-$ sudo mv oxwall /var/www/html
-```
-
-13. Tukar ownership direktori oxwall 
-```
-$ sudo chown –R www-data:www-data /var/www/oxwall
-```
-
-14. Karena oxwall menggunakan .htaccess dan secara default diblock oleh apache, maka perlu dilakukan beberapa konfigurasi
-
-15. Aktifkan mod rewrite
+14. Karena oxwall menggunakan .htaccess dan secara default diblock oleh apache, maka perlu dilakukan beberapa konfigurasi Apache
 ```
 $ sudo a2enmod rewrite 
 $ sudo systemctl restart apache2
-```
-
-16. ini apaaaa
-```
 $ sudo nano /etc/apache2/sites-available/000-default.conf
+
+<VirtualHost *:80>
+<Directory /var/www/html>
+    Options Indexes FollowSymLinks MultiViews
+    AllowOverride All
+    Require all granted
+</Directory>
 ```
 
-17. Tambahkan ini tepat di bawah <VirtualHost *:80> untuk mengizinkan akses .htaccess
-18. Restart apache, lalu cek halaman “localhost:888/oxwall”
+15. Restart apache
 ```
 $ sudo systemctl restart apache2
 ```
 
 19. Ketika sudah masuk halaman oxwall, akan muncul peringatan mysql php extension belum terinstall, karena oxwall tidak bisa membaca php-mysql dari php 7, triknya yaitu menghapus requirement mysql pada oxwall
-20. ini apaaaa
 ```
 $sudo nano /var/www/html/oxwall/ow_install/files/requirements.txt
 ```
 
-21. Hapus mysql pada file tersebut, save dengan ctrl+o
+20. Hapus mysql pada file tersebut, save dengan ctrl+o
 22. Cek kembali localhost:8888/oxwall , maka oxwall sudah bisa digunakan
 
 # Konfigurasi
@@ -181,4 +177,6 @@ Salah satu cara yang bisa digunakan untuk menginstall oxwall dengan cepat yaitu 
 2.[Apache Override](https://www.digitalocean.com/community/tutorials/how-to-rewrite-urls-with-mod_rewrite-for-apache-on-ubuntu-16-04) - DigitalOcean
 3. [Mysql PHP Problem](https://developers.oxwall.com/forum/topic/55994?page=1) - Oxwall Forum
 4. [Cron Jobs Config](https://wiki.oxwall.com/install:cron) - Oxwall Wiki
+
+
 
