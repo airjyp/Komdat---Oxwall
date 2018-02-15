@@ -182,7 +182,7 @@ Salah satu cara yang bisa digunakan untuk menginstall oxwall dengan cepat yaitu 
 - Dapat dikustomisasi baik untuk situs keluarga, forum, maupun jaringan sosial secara enterprise.
 
 Namun, setiap aplikasi pasti memiliki kekurangan dari segi tertentu, Kekurangan dari **Oxwall** ini adalah :
-- Dari segi developer, aplikasi ini tidak up-to-date. Terakhir aplikasi ini di*update* adalah 2016.
+- Dari segi developer, aplikasi ini belum up-to-date, banyak fitur yang belum di*improve* seiring dengan teknologi aplikasi saat ini sehingga Oxwall tidak lebih baik dari aplikasi yang sudah berkembang saat ini.
 - Tidak ada pengaturan yang baik pada pengelolaan privasi pengguna. Siapapun dapat melihat aktivitas maupun profil siapa saja.
 - Dalam segi UX, pada saat melakukan sesi register terlalu banyak melakukan input data yang tidak dibutuhkan.
 - 
