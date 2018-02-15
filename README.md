@@ -135,12 +135,12 @@ Maintenance dibutuhkan untuk melakukan improvisasi dan kualitas pada aplikasi. S
 1. Login ke dalam admin aplikasi kita.
 2. Klik submenu special pages pada menu Pages.
 ![pages](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/pages.png)
+
 3. Checked / Unchecked box untuk masuk ke dalam mode maintenance.
+![maintenance](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/maintenance.png)
+
 4. Untuk menyampaikan pesan yang ingin disampaikan kepada orang yang akan mengakses aplikasi web saat mode maintenance, kita dapat menambahkan pesan di Maintenance message.
 5. Klik tombol save untuk menyimpan perubahan.
-
-
-![maintenance](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/maintenance.png)
 
 
 
