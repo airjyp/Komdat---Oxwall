@@ -179,6 +179,6 @@ Salah satu cara yang bisa digunakan untuk menginstall oxwall dengan cepat yaitu 
 
 1. [About Oxwall](https://www.oxwall.com/about) - Oxwall
 2.[Apache Override](https://www.digitalocean.com/community/tutorials/how-to-rewrite-urls-with-mod_rewrite-for-apache-on-ubuntu-16-04) - DigitalOcean
-3. [mysql php problem] (https://developers.oxwall.com/forum/topic/55994?page=1) - Oxwall Forum
-
+3. [Mysql PHP Problem](https://developers.oxwall.com/forum/topic/55994?page=1) - Oxwall Forum
+4. [Cron Jobs Config](https://wiki.oxwall.com/install:cron) - Oxwall Wiki
 
