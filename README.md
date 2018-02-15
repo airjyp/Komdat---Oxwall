@@ -110,67 +110,13 @@ $sudo nano /var/www/html/oxwall/ow_install/files/requirements.txt
 
 [`^ kembali ke atas ^`](#)
 
-Terdapat beberapa konfigurasi dalam aplikasi web Oxwall ini, diantaranya:
-- konfigurasi dashboard
-- konfigurasi appearance
-- konfigurasi user
-- konfigurasi pages
-- konfigurasi plugin
+- Untuk menentukan konfigurasi umum, batasan upload file, batas memori yang diperlukan, dan ekstensi/format file yang dapat diupload , dapat dilakukan dengan membuka submenu Content settings yang terdapat pada menu Settings dan mengisi field sesuai kebutuhan.
+![content_setting](https://github.com/airjyp/Komdat---Oxwall/blob/master/konfigurasi/content_setting.png)
 
-## konfigurasi dashboard
+- Kita dapat membatasi batas upload size untuk avatar pada user di submenu User setting 
+![content_setting](https://github.com/airjyp/Komdat---Oxwall/blob/master/konfigurasi/user_setting.png)
 
-- untuk mengatur tampilan halaman dashboard admin, kita dapat melakukan customize this page pada menu dashboard
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(16).png)
-
-## konfigurasi appearance
-
-- untuk mempercantik tampilan aplikasi, kita dapat menambahkan atau mengganti tema aplikasi pada menu appearance -> themes
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(18).png)
-
-- untuk melakukan kustomisasi pada theme, dapat dilakukan pada menu appearance -> customize
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(19).png)
-
-
-## konfigurasi user
-
-- untuk mencari user 
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(2).png)
-
-- untuk menambahkan moderator
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(3).png)
-
-- untuk menambahkan user role dan melakukan permission 
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(4).png)
-
-- untuk menambahkan fitur change, rearrange, dan profile question
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(5).png)
-
-- untuk memblokir user ke dalam daftar
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(6).png)
-
-- Untuk melakukan mass mailing
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(7).png)
-
-## konfigurasi pages
-
-- Untuk menambahkan item pada page, dapat dilakukan di menu pages -> manage pages
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(9).png)
-
-- Untuk mempercantik tampilan web saat dijelajahi, kita dapat mengaktifkan splash screen di menu pages -> special pages. Kita juga dapat melakukan maintenance page
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(10).png)
-
-- Untuk melakukan kustomisasi komponen yang pada tampilan profil user, dilakukan pada menu pages -> user profile
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(11).png)
-
-- Selain itu, kita juga dapat mengatur tampilan dashboard user.  
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(12).png)
-
-## konfigurasi plugin
-
-- Untuk menonaktifkan atau menghapus plugin yang terinstall di aplikasi, dapat dilakukan pada menu Installed plugins
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(13).png)
-
-- Untuk melengkapi aplikasi, kita dapat menambahkan fitur tertentu pada menu Available Plugins.
+- Untuk melengkapi dan melakukan improve pada aplikasi, kita dapat menambahkan fitur tertentu pada menu Available Plugins.
 ![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(14).png)
 
 - Untuk mengupload dan menambahkan plugin secara manual, dapat dilakukan pada menu Add New.
