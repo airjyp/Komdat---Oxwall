@@ -130,6 +130,10 @@ $sudo nano /var/www/html/oxwall/ow_install/files/requirements.txt
 
 [`^ kembali ke atas ^`](#)
 
+![maintenance](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/maintenance.png)
+
+
+
 # Otomatisasi
 [`^ kembali ke atas ^`](#)
 
