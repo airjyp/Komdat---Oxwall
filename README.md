@@ -111,19 +111,19 @@ $sudo nano /var/www/html/oxwall/ow_install/files/requirements.txt
 [`^ kembali ke atas ^`](#)
 
 - Untuk menentukan konfigurasi umum, batasan upload file, batas memori yang diperlukan, dan ekstensi/format file yang dapat diupload , dapat dilakukan dengan membuka submenu Content settings yang terdapat pada menu Settings dan mengisi field sesuai kebutuhan.
-![content_setting](https://github.com/airjyp/Komdat---Oxwall/blob/master/konfigurasi/content_setting.png)
+     ![content_setting](https://github.com/airjyp/Komdat---Oxwall/blob/master/konfigurasi/content_setting.png)
 
 - Kita dapat membatasi batas upload size untuk avatar pada user di submenu User setting 
-![content_setting](https://github.com/airjyp/Komdat---Oxwall/blob/master/konfigurasi/user_setting.png)
+     ![content_setting](https://github.com/airjyp/Komdat---Oxwall/blob/master/konfigurasi/user_setting.png)
 
 - Untuk melengkapi dan melakukan improve pada aplikasi, kita dapat menambahkan fitur tertentu pada menu Available Plugins.
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(14).png)
+     ![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(14).png)
 
 - Untuk mengupload dan menambahkan plugin secara manual, dapat dilakukan pada menu Add New.
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(15).png)
+     ![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(15).png)
 
 - Kita dapat mempercantik tampilan aplikasi dengan menambahkan atau mengganti tema aplikasi pada submenu Themes di Appearance.
-![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(18).png)
+     ![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(18).png)
 
 
 # Maintenance
@@ -134,10 +134,12 @@ Maintenance dibutuhkan untuk melakukan improvisasi dan kualitas pada aplikasi. S
 
 1. Login ke dalam admin aplikasi kita.
 2. Klik submenu special pages pada menu Pages.
-![pages](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/pages.png)
+
+     ![pages](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/pages.png)
 
 3. Checked / Unchecked box untuk masuk ke dalam mode maintenance.
-![maintenance](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/maintenance.png)
+
+     ![maintenance](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/maintenance.png)
 
 4. Untuk menyampaikan pesan yang ingin disampaikan kepada orang yang akan mengakses aplikasi web saat mode maintenance, kita dapat menambahkan pesan di Maintenance message.
 5. Klik tombol save untuk menyimpan perubahan.
