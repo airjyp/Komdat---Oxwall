@@ -153,6 +153,18 @@ Terdapat beberapa konfigurasi dalam aplikasi web Oxwall ini, diantaranya:
 
 ## konfigurasi pages
 
+- Untuk menambahkan item pada page, dapat dilakukan di menu pages -> manage pages
+![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(9).png)
+
+- Untuk mempercantik tampilan web saat dijelajahi, kita dapat mengaktifkan splash screen di menu pages -> special pages. Kita juga dapat melakukan maintenance page
+![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(10).png)
+
+- Untuk melakukan kustomisasi komponen yang pada tampilan profil user, dilakukan pada menu pages -> user profile
+![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(11).png)
+
+- Selain itu, kita juga dapat mengatur tampilan dashboard user.  
+![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(12).png)
+
 ## konfigurasi plugin
 
 
