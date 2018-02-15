@@ -122,6 +122,10 @@ $sudo nano /var/www/html/oxwall/ow_install/files/requirements.txt
 - Untuk mengupload dan menambahkan plugin secara manual, dapat dilakukan pada menu Add New.
 ![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(15).png)
 
+- Kita dapat mempercantik tampilan aplikasi dengan menambahkan atau mengganti tema aplikasi pada submenu Themes di Appearance.
+![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(18).png)
+
+
 # Maintenance
 
 [`^ kembali ke atas ^`](#)
