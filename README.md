@@ -75,7 +75,7 @@ $ mysql –u root –p –e "
     FLUSH PRIVILEGES;"
 ```
 
-14. Karena oxwall menggunakan .htaccess dan secara default diblock oleh apache, maka perlu dilakukan beberapa konfigurasi Apache
+11. Karena oxwall menggunakan .htaccess dan secara default diblock oleh apache, maka perlu dilakukan beberapa konfigurasi Apache
 ```
 $ sudo a2enmod rewrite 
 $ sudo systemctl restart apache2
@@ -89,18 +89,18 @@ $ sudo nano /etc/apache2/sites-available/000-default.conf
 </Directory>
 ```
 
-15. Restart apache
+12. Restart apache
 ```
 $ sudo systemctl restart apache2
 ```
 
-16. Ketika sudah masuk halaman oxwall, akan muncul peringatan mysql php extension belum terinstall, karena oxwall tidak bisa membaca php-mysql dari php 7, triknya yaitu menghapus requirement mysql pada oxwall
+13. Ketika sudah masuk halaman oxwall, akan muncul peringatan mysql php extension belum terinstall, karena oxwall tidak bisa membaca php-mysql dari php 7, triknya yaitu menghapus requirement mysql pada oxwall
 ```
 $sudo nano /var/www/html/oxwall/ow_install/files/requirements.txt
 ```
 
-17. Hapus mysql pada file tersebut, save dengan ctrl+o
-18. Cek kembali localhost:8888/oxwall , maka oxwall sudah bisa digunakan
+14. Hapus mysql pada file tersebut, save dengan ctrl+o
+15. Cek kembali localhost:8888/oxwall , maka oxwall sudah bisa digunakan
 
 # Konfigurasi
 
