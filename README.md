@@ -153,6 +153,7 @@ Maintenance dibutuhkan untuk melakukan improvisasi dan kualitas pada aplikasi. S
 
 # Otomatisasi
 [`^ kembali ke atas ^`](#)
+
 Salah satu cara yang bisa digunakan untuk menginstall oxwall dengan cepat yaitu dengan menggunakan layanan web-hosting provider, salah satunya yaitu **Installatron**,berikut cara menginstall oxwall menggunakan installatron:
 
 1. Mengunjungi **Installatron**
