@@ -175,7 +175,7 @@ Salah satu cara yang bisa digunakan untuk menginstall oxwall dengan cepat yaitu 
 [`^ kembali ke atas ^`](#)
 
 **Oxwall** ditulis dalam bahasa pemrograman PHP yang support untuk penggunaan MySQL. **Oxwall** merupakan salah satu aplikasi web jejaring sosial media yang cukup simple dan mudah digunakan dengan kelebihan diantaranya : 
-- Tampilan cukup simple dan *light* saat digunakan.
+- Tampilan cukup simple (minimalist) dan *light* saat digunakan.
 - Tidak menggunakan memori terlalu besar.
 - Design aplikasi yang responsif, sehingga dapat digunakan pada berbagai platforms.
 - Fitur **Search** yang cukup detail, dapat mencari berdasarkan kriteria tertentu.
@@ -204,3 +204,4 @@ Apabila kira membandingkan **Oxwall** dengan CMS sejenisnya seperti Facebook, CM
 2. [Apache Override](https://www.digitalocean.com/community/tutorials/how-to-rewrite-urls-with-mod_rewrite-for-apache-on-ubuntu-16-04) - DigitalOcean
 3. [Mysql PHP Problem](https://developers.oxwall.com/forum/topic/55994?page=1) - Oxwall Forum
 4. [Cron Jobs Config](https://wiki.oxwall.com/install:cron) - Oxwall Wiki
+5. [Oxwall Review](https://alternativeto.net/software/oxwall/reviews/) - Alternativeto
