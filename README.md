@@ -94,13 +94,13 @@ $ sudo nano /etc/apache2/sites-available/000-default.conf
 $ sudo systemctl restart apache2
 ```
 
-19. Ketika sudah masuk halaman oxwall, akan muncul peringatan mysql php extension belum terinstall, karena oxwall tidak bisa membaca php-mysql dari php 7, triknya yaitu menghapus requirement mysql pada oxwall
+16. Ketika sudah masuk halaman oxwall, akan muncul peringatan mysql php extension belum terinstall, karena oxwall tidak bisa membaca php-mysql dari php 7, triknya yaitu menghapus requirement mysql pada oxwall
 ```
 $sudo nano /var/www/html/oxwall/ow_install/files/requirements.txt
 ```
 
-20. Hapus mysql pada file tersebut, save dengan ctrl+o
-22. Cek kembali localhost:8888/oxwall , maka oxwall sudah bisa digunakan
+17. Hapus mysql pada file tersebut, save dengan ctrl+o
+18. Cek kembali localhost:8888/oxwall , maka oxwall sudah bisa digunakan
 
 # Konfigurasi
 
@@ -174,7 +174,7 @@ Salah satu cara yang bisa digunakan untuk menginstall oxwall dengan cepat yaitu 
 [`^ kembali ke atas ^`](#)
 
 1. [About Oxwall](https://www.oxwall.com/about) - Oxwall
-2.[Apache Override](https://www.digitalocean.com/community/tutorials/how-to-rewrite-urls-with-mod_rewrite-for-apache-on-ubuntu-16-04) - DigitalOcean
+2. [Apache Override](https://www.digitalocean.com/community/tutorials/how-to-rewrite-urls-with-mod_rewrite-for-apache-on-ubuntu-16-04) - DigitalOcean
 3. [Mysql PHP Problem](https://developers.oxwall.com/forum/topic/55994?page=1) - Oxwall Forum
 4. [Cron Jobs Config](https://wiki.oxwall.com/install:cron) - Oxwall Wiki
 
