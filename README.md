@@ -111,18 +111,23 @@ $sudo nano /var/www/html/oxwall/ow_install/files/requirements.txt
 [`^ kembali ke atas ^`](#)
 
 - Untuk menentukan konfigurasi umum, batasan upload file, batas memori yang diperlukan, dan ekstensi/format file yang dapat diupload , dapat dilakukan dengan membuka submenu Content settings yang terdapat pada menu Settings dan mengisi field sesuai kebutuhan.
+     
      ![content_setting](https://github.com/airjyp/Komdat---Oxwall/blob/master/konfigurasi/content_setting.png)
 
 - Kita dapat membatasi batas upload size untuk avatar pada user di submenu User setting 
+     
      ![content_setting](https://github.com/airjyp/Komdat---Oxwall/blob/master/konfigurasi/user_setting.png)
 
 - Untuk melengkapi dan melakukan improve pada aplikasi, kita dapat menambahkan fitur tertentu pada menu Available Plugins.
+     
      ![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(14).png)
 
 - Untuk mengupload dan menambahkan plugin secara manual, dapat dilakukan pada menu Add New.
+     
      ![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(15).png)
 
 - Kita dapat mempercantik tampilan aplikasi dengan menambahkan atau mengganti tema aplikasi pada submenu Themes di Appearance.
+     
      ![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(18).png)
 
 
