@@ -191,6 +191,11 @@ Namun, setiap aplikasi pasti memiliki kekurangan dari segi tertentu, Kekurangan 
 
 Apabila kira membandingkan **Oxwall** dengan CMS sejenisnya seperti Facebook, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara Oxwall dengan Facebook ini :
 
+- **Oxwall** menggunakan memori yang lebih ringan daripada **Facebook** karena modulnya lebih sedikit.
+- **Facebook** memiliki plugin yang lengkap dan mendukung semua kustomisasi pada setiap fitur dibandingkan **Oxwall**.
+- **Oxwall** memiliki fitur search yang detail berdasarkan kriteria tertentu, berbeda dengan **Facebook**
+- **Facebook** memiliki pengguna yang jauh lebih banyak daripada **Oxwall** yang aktif pada forum-forum diskusi atau jejaring sosial yang bersifat enterprise. 
+
 
 # Referensi
 [`^ kembali ke atas ^`](#)
