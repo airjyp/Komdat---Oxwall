@@ -174,7 +174,7 @@ Salah satu cara yang bisa digunakan untuk menginstall oxwall dengan cepat yaitu 
 # Pembahasan
 [`^ kembali ke atas ^`](#)
 
-**Oxwall** ditulis dalam bahasa pemrograman PHP yang support untuk penggunaan MySQL. **Oxwall** merupakan salah satu aplikasi web jejaring sosial media yang cukup simple dan mudah digunakan dengan kelebihan diantaranya : 
+**Oxwall** ditulis dalam bahasa pemrograman PHP yang support untuk penggunaan MySQL. **Oxwall** merupakan salah satu aplikasi web jejaring sosial media (CMS) yang cukup simple dan mudah digunakan dengan kelebihan diantaranya : 
 - Tampilan cukup simple (minimalist) dan *light* saat digunakan.
 - Tidak menggunakan memori terlalu besar.
 - Design aplikasi yang responsif, sehingga dapat digunakan pada berbagai platforms.
@@ -188,7 +188,7 @@ Namun, setiap aplikasi pasti memiliki kekurangan dari segi tertentu, Kekurangan 
 
 
 
-Apabila kira membandingkan **Oxwall** dengan CMS sejenisnya seperti Facebook, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara Oxwall dengan Facebook ini :
+Apabila kira membandingkan **Oxwall** dengan CMS dengan jejaring sosial media seperti Facebook, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara Oxwall dengan Facebook ini :
 
 - **Oxwall** menggunakan memori yang lebih ringan daripada **Facebook** karena modulnya lebih sedikit.
 - **Facebook** memiliki plugin yang lengkap dan mendukung semua kustomisasi pada setiap fitur dibandingkan **Oxwall**.
