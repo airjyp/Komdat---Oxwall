@@ -169,6 +169,28 @@ Salah satu cara yang bisa digunakan untuk menginstall oxwall dengan cepat yaitu 
 - Tampilan aplikasi web
 - Fungsi-fungsi utama
 - Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
+Berikut akan dijelaskan salah satu cara pemakaian oxwall bagi user baru:
+
+1. Mengunjungi halaman utama oxwall, seperti tampilan di bawah ini.
+![Halaman sebelum sign up](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/halaman%20sebelum%20login.png)
+
+2. Klik Sign up lalu mengisi data registrasi yang tersedia setelah masuk ke halaman registrasi
+![Form registrasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/form%20registrasi%20setelah%20diisi.png)
+
+3. Setelah melakukan registrasi, user akan otomatis login ke oxwall dan diarahkan ke halaman beranda akun user tersebut.
+![Halaman beranda](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/beranda.png)
+
+4. User dapat masuk ke halaman profilnya sendiri dan juga dapat mengedit segala informasi yang sudah diisi pada form registrasi sebelumnya jika ada kesalahan isi.
+![Lihat Profile](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/lihat%20profile.png)
+
+5. Karena list user pada oxwall bersifat global, maka user dapat menambah pertemanan dengan user lain yang memiliki akun di oxwall dengan cara mengunjungi halaman browse user
+![Halaman browse user](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/browse%20user.png)
+
+6. Untuk dapat menambah pertemanan, user perlu untuk mengunjungi user lain yang ingin diajaka berteman lalu menekan button add friend
+![Lihat profile user lain](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/lihat%20air.png)
+
+7. User juga dapat mengirim pesan kepada user lain untuk menerima pertemanannya
+![Send pm](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/send%20pm%20air.png)
 
 
 # Pembahasan
