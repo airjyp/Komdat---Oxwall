@@ -163,12 +163,12 @@ Salah satu cara yang bisa digunakan untuk menginstall oxwall dengan cepat yaitu 
 
 4. Tunggu hingga proses instalasi selesai.
 
+Otomatisasi lain yang dapat digunakan pada oxwall yaitu otomatisasi task system menggunakan cron job. Cron job merupakan aplikasi "task scheduler" yang berfungsi untuk memanajemen task apa saja yang diperlukan dalam aplikasi seperti oxwall dan menjalankan task tersebut secara otomatis. Cron job diperlukan oleh oxwall agar admin tidak perlu mengatur aplikasi secara rutin.
+
 
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)
-- Tampilan aplikasi web
-- Fungsi-fungsi utama
-- Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
+
 Berikut akan dijelaskan salah satu cara pemakaian oxwall bagi user baru:
 
 1. Mengunjungi halaman utama oxwall, seperti tampilan di bawah ini.
