@@ -80,16 +80,14 @@ $ mysql –u root –p –e "
 $ sudo a2enmod rewrite 
 $ sudo systemctl restart apache2
 $ sudo nano /etc/apache2/sites-available/000-default.conf
-```
-Tambahkan bagian ini
 
 <VirtualHost *:80>
 <Directory /var/www/html>
-    Options Indexes FollowSymLinks MultiViews
-    AllowOverride All
-    Require all granted
+Options Indexes FollowSymLinks MultiViews
+AllowOverride All
+Require all granted
 </Directory>
-
+```
 
 12. Restart apache
 ```
@@ -212,7 +210,7 @@ Namun, setiap aplikasi pasti memiliki kekurangan dari segi tertentu, Kekurangan 
 
 
 
-Apabila kira membandingkan **Oxwall** dengan CMS dengan jejaring sosial media seperti Facebook, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara Oxwall dengan Facebook ini :
+Apabila kira membandingkan **Oxwall** dengan jejaring sosial media seperti Facebook, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara Oxwall dengan Facebook ini :
 
 - **Oxwall** menggunakan memori yang lebih ringan daripada **Facebook** karena modulnya lebih sedikit.
 - **Facebook** memiliki plugin yang lengkap dan mendukung semua kustomisasi pada setiap fitur dibandingkan **Oxwall**.
