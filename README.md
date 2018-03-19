@@ -80,6 +80,8 @@ $ mysql –u root –p –e "
 $ sudo a2enmod rewrite 
 $ sudo systemctl restart apache2
 $ sudo nano /etc/apache2/sites-available/000-default.conf
+```
+Tambahkan bagian ini
 
 <VirtualHost *:80>
 <Directory /var/www/html>
@@ -87,7 +89,7 @@ $ sudo nano /etc/apache2/sites-available/000-default.conf
     AllowOverride All
     Require all granted
 </Directory>
-```
+
 
 12. Restart apache
 ```
