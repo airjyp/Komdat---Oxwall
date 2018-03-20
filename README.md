@@ -80,7 +80,6 @@ $ mysql –u root –p –e "
 $ sudo a2enmod rewrite 
 $ sudo systemctl restart apache2
 $ sudo nano /etc/apache2/sites-available/000-default.conf
-
 <VirtualHost *:80>
 <Directory /var/www/html>
 Options Indexes FollowSymLinks MultiViews
