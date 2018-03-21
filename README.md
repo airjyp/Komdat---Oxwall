@@ -12,7 +12,7 @@
 [`^ kembali ke atas ^`](#)
 
 #### Kebutuhan Sistem :
-- Virtualbox 2.6
+- Virtualbox 5.2.6
 - Ubuntu server 16.04
 - Ubuntu bash di windows
 
